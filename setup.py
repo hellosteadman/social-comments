@@ -10,7 +10,11 @@ setup(
 	url = 'https://github.com/mrmarksteadman/social-comments',
 	install_requires = [
 		'Django>=1.4',
-		'bambu-tools>=3.0.3'
+		'bambu-tools>=3.0.3',
+		'Markdown>=2.2.1',
+		'oauth2>=1.5.211',
+		'pyquery>=1.2.4',
+		'requests>=1.1.0'
 	],
 	packages = [
 		'socialcomments',
