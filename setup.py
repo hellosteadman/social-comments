@@ -17,6 +17,12 @@ setup(
 		'socialcomments.migrations',
 		'socialcomments.providers',
 		'socialcomments.templatetags'
+	],
+	package_data = {
+		'socialcomments': [
+			'templates/socialcomments/*.*',
+			'templates/socialcomments/form/*.*'
+		]
 	},
 	classifiers = [
 		'Development Status :: 4 - Beta',
